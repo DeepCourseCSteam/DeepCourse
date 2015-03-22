@@ -1,0 +1,15 @@
+class Dnn:
+	
+	
+	size - a list of neurons in every hidden layer
+	layer_num
+	bias - current bias, the the way it initialize is hard coded
+	weight - the way it initialize is hard coded
+	
+===============================================================
+
+	train( train_data:list, epoch: default 10, mini_batch_size: default 10, lr: default 3.0, val_data: list, model_file)
+		
+			shuffle data hard coded
+
+================================================================
